@@ -1,0 +1,7 @@
+# Logfile created on 2015-04-20 18:39:30 -0400 by logger.rb/47272
+W, [2015-04-20T18:39:30.275069 #62028]  WARN -- : DRAGONFLY: caught error - Dragonfly::Job::FetchUrl::ErrorResponse
+I, [2015-04-20T18:39:30.275197 #62028]  INFO -- : DRAGONFLY: GET /100x100/images/2013/pivotal-tracker-fluid-icon-2013.pg 500
+W, [2015-04-20T19:13:39.728005 #63722]  WARN -- : DRAGONFLY: caught error - Dragonfly::Job::FetchUrl::ErrorResponse
+I, [2015-04-20T19:13:39.728133 #63722]  INFO -- : DRAGONFLY: GET /100x100/images/2013/pivotal-tracker-fluid-icon-2013.pg 500
+W, [2015-04-20T19:13:41.361207 #63722]  WARN -- : DRAGONFLY: caught error - Dragonfly::Job::FetchUrl::ErrorResponse
+I, [2015-04-20T19:13:41.361324 #63722]  INFO -- : DRAGONFLY: GET /100x100/images/2013/pivotal-tracker-fluid-icon-2013.pg 500
