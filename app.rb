@@ -28,7 +28,8 @@ class App < Sinatra::Base
     return 404 unless size.valid?
 
     begin
-      Dragonfly.app.fetch_url("#{ENV['URL_BASE']}/#{params['splat'].first}")
+      first_wildcard = params.fetch('splat', [])[0]
+      Dragonfly.app.fetch_url("#{ENV['URL_BASE']}/#{first_wildcard}")
                    .thumb(size.to_geometry_s)
                    .to_response(env)
     rescue ErrorResponse, CannotHandle, TooManyRedirects, BadURI
