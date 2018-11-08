@@ -12,7 +12,7 @@ git clone git@github.com:andycroll/sinatra-fly.git
 cd sinatra-fly
 ```
 
-Set an an environment variable 'BASE_URL' (in `.env` in development). This is the only domain that can be a source for images.
+Set an environment variable 'BASE_URL' (in `.env` in development). This is the only domain that can be a source for images.
 
 
 ## Use
